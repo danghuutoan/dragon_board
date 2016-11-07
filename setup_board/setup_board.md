@@ -3,5 +3,7 @@ https://github.com/96boards/documentation/wiki/Dragonboard-410c-Installation-Gui
 # configure wifi 
 https://wiki.debian.org/WiFi/HowToUse
 https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+## Board ip address
+192.168.0.105
 # smb server
 http://askubuntu.com/questions/203585/how-do-i-connect-to-an-smb-share-requiring-a-user-name-and-password
