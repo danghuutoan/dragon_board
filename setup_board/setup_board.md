@@ -20,3 +20,6 @@ iface default inet dhcp
 192.168.0.105
 # smb server
 http://askubuntu.com/questions/203585/how-do-i-connect-to-an-smb-share-requiring-a-user-name-and-password
+# Customize the kernel
+
+http://www.96boards.org/db410c-getting-started/Configuration/EnableSPI.md/
