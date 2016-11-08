@@ -5,6 +5,7 @@ chmod 0600 /etc/network/interfaces
 modify `/etc/network/interfaces` as bellow:
 
 ```
+auto wlan0
 allow-hotplug wlan0
 iface wlan0 inet dhcp
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
