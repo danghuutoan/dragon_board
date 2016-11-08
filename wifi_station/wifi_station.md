@@ -28,4 +28,8 @@ or
 ```bash
 $ sudo reboot
 ```
+# References:
+1. https://wiki.debian.org/WiFi/HowToUse
+2. https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
+
 
