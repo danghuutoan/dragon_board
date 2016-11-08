@@ -4,15 +4,18 @@ https://github.com/96boards/documentation/wiki/Dragonboard-410c-Installation-Gui
 https://wiki.debian.org/WiFi/HowToUse
 https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
 ## Auto-start wifi
+```bash
+# chmod 0600 /etc/network/interfaces
+```
 `/etc/network/interfaces`:
 ```
 auto lo
 
 iface lo inet loopback
-iface eth0 inet dhcp
+
 
 allow-hotplug wlan0
-iface wlan0 inet manual
+iface wlan0 inet dhcp
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 iface default inet dhcp
 ```
