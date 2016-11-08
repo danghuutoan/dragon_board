@@ -30,3 +30,5 @@ http://askubuntu.com/questions/203585/how-do-i-connect-to-an-smb-share-requiring
 # Customize the kernel
 
 http://www.96boards.org/db410c-getting-started/Configuration/EnableSPI.md/
+# Dragon board tutorial
+https://www.linux.com/learn/embedded-linux-using-dragonboard-410c
