@@ -5,11 +5,10 @@ chmod 0600 /etc/network/interfaces
 modify `/etc/network/interfaces` as bellow:
 
 ```
-auto wlan0
 allow-hotplug wlan0
+auto wlan0
 iface wlan0 inet dhcp
-wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
-iface default inet dhcp
+	wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 ```
 ## Step 3:
 Create `etc/wpa_supplicant/wpa_supplicant.conf` file
@@ -34,12 +33,11 @@ you can ping `www.google.com` to see if the wifi configuration is working or not
 ```bash
 $ ping www.google.com
 ```
-or type
+if you see something like `Ping: icmp open socket: Operation not permitted` then just enter the bellow command
 
 ```bash
-sudo iwlist wlan0 scan
+sudo chmod u+s `which ping`
 ```
-to get the wifi infomation
 # References:
 1. https://wiki.debian.org/WiFi/HowToUse
 2. https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
