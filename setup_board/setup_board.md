@@ -19,6 +19,10 @@ iface wlan0 inet dhcp
 wpa-conf /etc/wpa_supplicant/wpa_supplicant.conf
 iface default inet dhcp
 ```
+## Ping: icmp open socket: Operation not permitted
+```bash
+sudo chmod u+s `which ping`
+```
 ## Board ip address
 192.168.0.105
 # smb server
