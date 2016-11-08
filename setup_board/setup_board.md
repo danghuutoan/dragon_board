@@ -32,3 +32,5 @@ http://askubuntu.com/questions/203585/how-do-i-connect-to-an-smb-share-requiring
 http://www.96boards.org/db410c-getting-started/Configuration/EnableSPI.md/
 # Dragon board tutorial
 https://www.linux.com/learn/embedded-linux-using-dragonboard-410c
+# Flashing img with fastboot
+http://www.cnx-software.com/2016/05/06/debian-on-dragonboard-410c-development-board/
