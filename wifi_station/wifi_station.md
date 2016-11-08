@@ -29,6 +29,17 @@ or
 ```bash
 $ sudo reboot
 ```
+# Test
+you can ping `www.google.com` to see if the wifi configuration is working or not
+```bash
+$ ping www.google.com
+```
+or type
+
+```bash
+sudo iwlist wlan0 scan
+```
+to get the wifi infomation
 # References:
 1. https://wiki.debian.org/WiFi/HowToUse
 2. https://www.raspberrypi.org/documentation/configuration/wireless/wireless-cli.md
