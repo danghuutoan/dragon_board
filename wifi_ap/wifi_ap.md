@@ -34,3 +34,4 @@ wcn36xx: ERROR hal_remove_bsskey response failed err=6
 # 
 http://www.sudo-juice.com/how-to-set-a-static-ip-in-ubuntu-the-proper-way/#disable-nm
 http://www.niwi.cz/clanky/it-poznamky/hostap-complete-wi-fi-ap-configuration-730
+https://seravo.fi/2014/create-wireless-access-point-hostapd
