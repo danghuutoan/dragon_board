@@ -27,5 +27,10 @@ Edit the file /etc/default/hostapd and modify the line of DAEMON_CONF like this:
 ```
 DAEMON_CONF="/etc/hostapd/hostapd.conf"
 ```
-
-
+new issue
+```
+wcn36xx: ERROR hal_remove_bsskey response failed err=6
+```
+# 
+http://www.sudo-juice.com/how-to-set-a-static-ip-in-ubuntu-the-proper-way/#disable-nm
+http://www.niwi.cz/clanky/it-poznamky/hostap-complete-wi-fi-ap-configuration-730
