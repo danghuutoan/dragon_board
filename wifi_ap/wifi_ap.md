@@ -58,7 +58,7 @@ rsn_pairwise=CCMP
 
 Create new file `/etc/dnsmasq.conf `
 
-Paste the following into the new file:
+Paste the following line into the new file:
 
 ```
 interface=wlan0      # Use interface wlan0  
@@ -97,7 +97,7 @@ sudo service hostapd start
 sudo service dnsmasq start
 ```
 
-You can use the following command to check if hostapd and dnsmasq is started or not
+You can use the following command to check if `hostapd` and `dnsmasq` is started or not
 
 ```bash
 sudo service hostapd status  
