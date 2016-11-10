@@ -139,3 +139,4 @@ Interface wlan0
 1. https://frillip.com/using-your-raspberry-pi-3-as-a-wifi-access-point-with-hostapd/
 2. http://www.96boards.org/forums/topic/ap-mode-on-linux/#gsc.tab=0
 3. https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/Configuration/WifiCommandline.md
+4. https://wiki.debian.org/DHCP_Server
