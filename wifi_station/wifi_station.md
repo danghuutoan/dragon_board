@@ -48,6 +48,7 @@ sudo chmod u+s `which ping`
 
 # Turn off network manager
 
+<<<<<<< Updated upstream
 refer to this link 
 http://xmodulo.com/disable-network-manager-linux.html
 
@@ -55,3 +56,5 @@ http://xmodulo.com/disable-network-manager-linux.html
 $ sudo systemctl stop NetworkManager.service
 $ sudo systemctl disable NetworkManager.service
 ```
+https://github.com/96boards/documentation/blob/master/ConsumerEdition/CE-Extras/Configuration/WifiCommandline.md
+
